@@ -10,6 +10,30 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form action ="/submit" method = " post">
+		<lable text align= center><h1> Feedback Form</h1> </lable>
+		<table> 
+			<tr> 
+				<td> <lable for ="name"> Name : </lable></td>
+				<td><input type = "text" id = "name" minlength="3" maxlength="50"></td>
+			</tr>
+			<tr> 
+				<td> <lable for ="portfolio"> Portfolio link : </lable></td>
+				<td><input type = "url" id = "portfolio"></td>
+			</tr>
+			<tr> 
+				<td> <lable for ="favColor"> Favorite color : </lable></td>
+				<td><input type = "color" id = "favColor"></td>
+			</tr>
+			<tr> 
+				<td> <lable for ="likeness"> Likeness : </lable></td>
+				<td><input type = "range" id = "portfolio" min= "1" max="100"></td>
+			</tr>
+			
+			
+		</table>
+		<input type="submit" value="Submit">
+	</form>
 
 </body>
 
